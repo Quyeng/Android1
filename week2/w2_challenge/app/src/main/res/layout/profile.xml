@@ -42,6 +42,7 @@
         app:layout_constraintTop_toBottomOf="@+id/fullname">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/fname"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
@@ -98,6 +99,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/phonenum"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#FFFFFF"
