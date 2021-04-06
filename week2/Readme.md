@@ -25,9 +25,9 @@
 
 #### Thư mục demo:
 - Chứa các hình ảnh **sản phẩm được render** 
-![Profie Screen](demo\profie.PNG "Title")
-![Splash Screen](demo\splash.PNG "Title")
-![Welcome Screen](demo\welcome.PNG "Title")
+![Profie Screen](demo/profie.PNG "Title")
+![Splash Screen](demo/splash.PNG "Title")
+![Welcome Screen](demo/welcome.PNG "Title")
 
 **[File gradle có thêm thư viện material google để render được input textbox](https://github.com/Quyeng/Android1/tree/week2)**
 
