@@ -9,11 +9,12 @@
 - Tạo flow app                -- [Nguyễn Sơn](https://www.facebook.com/nguyenson6299)
 - Login                       -- [Cao Minh Phát](https://www.facebook.com/phat.caominh.39)
 - Set up profile              -- [Phụng Quang](https://www.facebook.com/v.phung.quang)
-**Link:**
-* [Challenge](https://drive.google.com/drive/folders/1hOEmAzug_7xAYMSyu0PaUDGCb9U5GBPn?usp=sharing)
-* [Slide](https://docs.google.com/presentation/d/1_o-dlIPvrNXDnxgCMorBkBtphdMzK4OXqJgqCuxpD24/edit?usp=sharing )
-* [Record](https://youtu.be/QGphPtTYN8E)
-* [Demo code](https://github.com/namphho/W2-Sample)
+
+    **Link lesson:**
+    * [Challenge](https://drive.google.com/drive/folders/1hOEmAzug_7xAYMSyu0PaUDGCb9U5GBPn?usp=sharing)
+    * [Slide](https://docs.google.com/presentation/d/1_o-dlIPvrNXDnxgCMorBkBtphdMzK4OXqJgqCuxpD24/edit?usp=sharing )
+    * [Record](https://youtu.be/QGphPtTYN8E)
+    * [Demo code](https://github.com/namphho/W2-Sample)
 
 ### Phần mình làm:
 1. Welcome *screen* --> Button: Sign in 
@@ -34,4 +35,4 @@
 
 **[File gradle có thêm thư viện material google để render được input textbox](https://github.com/Quyeng/Android1/tree/week2)**
 
-***Liên hệ Facebook nếu không hiểu :)*** [Đức Quang](https://www.facebook.com/Quang.org/)
+> ***Liên hệ Facebook nếu không hiểu :)*** => **Facebook:** [Đức Quang](https://www.facebook.com/Quang.org/)
