@@ -76,7 +76,7 @@
         android:contentDescription="@string/fbgg"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintHorizontal_bias="0.875"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/imageView2"
         app:layout_constraintVertical_bias="0.0"
@@ -108,14 +108,29 @@
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:contentDescription="@string/signinwith"
         app:layout_constraintBottom_toTopOf="@+id/fbgg"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintHorizontal_bias="0.516"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textTitle"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@drawable/signinwith"
-        android:contentDescription="@string/signinwith" />
+        app:srcCompat="@drawable/signinwith" />
+
+    <Button
+        android:id="@+id/signinbtn"
+        android:layout_width="271dp"
+        android:layout_height="60dp"
+        android:backgroundTint="#4DFFFFFF"
+        android:text="@string/start_with_email_or_phone"
+        android:textAllCaps="false"
+        android:textSize="17sp"
+        app:cornerRadius="22dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.909" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
