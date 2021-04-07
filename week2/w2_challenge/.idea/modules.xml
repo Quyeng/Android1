@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/w2_challenge.iml" filepath="$PROJECT_DIR$/.idea/modules/w2_challenge.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/w2_challenge.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/w2_challenge.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/week2.w2_challenge.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/week2.w2_challenge.app.iml" />
     </modules>
   </component>
 </project>

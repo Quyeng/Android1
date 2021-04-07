@@ -1,0 +1,4 @@
+C:\Users\Asus\Desktop\Android1\week2\w2_challenge\app\src\main\java\com\example\w2_challenge\Detail.kt
+C:\Users\Asus\Desktop\Android1\week2\w2_challenge\app\src\main\java\com\example\w2_challenge\WelcomeActivity.kt
+C:\Users\Asus\Desktop\Android1\week2\w2_challenge\app\src\main\java\com\example\w2_challenge\MainActivity.kt
+C:\Users\Asus\Desktop\Android1\week2\w2_challenge\app\src\main\java\com\example\w2_challenge\setProfile.kt
