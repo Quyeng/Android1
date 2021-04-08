@@ -10,22 +10,16 @@ import android.widget.TextView
 import androidx.appcompat.app.AlertDialog
 import android.widget.Toast
 
-//import com.example.w2_challenge.R
-//import com.example.w2_challenge.User
 
-class ProfileActivity : AppCompatActivity() {
-    private lateinit var tvUserName: TextView
+class setProfile : AppCompatActivity() {
     private lateinit var tvFullName: TextView
+    private lateinit var tvUserName: TextView
     private lateinit var tvEmail: TextView
     private lateinit var tvPhoneNumber: TextView
     private lateinit var edtData: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        window.setFlags(
-            WindowManager.LayoutParams.FLAG_FULLSCREEN,
-            WindowManager.LayoutParams.FLAG_FULLSCREEN
-        )
         setContentView(R.layout.profile)
         findViewsById()
         getUserFromBundle()
@@ -35,14 +29,14 @@ class ProfileActivity : AppCompatActivity() {
     private fun getUserFromBundle() {
         val bundle = intent.extras
         bundle?.let {
-            val user = bundle.getParcelable<Detail>(phanPhat.USER_KEY)
+            val user = bundle.getParcelable<Detail>(LoginActivity)
             initInfo(user)
         }
     }
 
     private fun findViewsById() {
-        tvUserName = findViewById(R.id.nametext)
         tvFullName = findViewById(R.id.fname)
+        tvUserName = findViewById(R.id.nametext)
         tvEmail = findViewById(R.id.emailbox)
         tvPhoneNumber = findViewById(R.id.phonenum)
     }
@@ -77,15 +71,15 @@ class ProfileActivity : AppCompatActivity() {
 
     private fun editInfo() {
         tvFullName.setOnClickListener {
-            setupAlertDialog("Edit Full Name", "Enter your full name", tvFullName)
+            setupAlertDialog("Edit full name", "Enter your full name", tvFullName)
         }
 
         tvEmail.setOnClickListener {
-            setupAlertDialog("Edit E-mail ", "Enter your e-mail", tvEmail)
+            setupAlertDialog("Edit e-mail ", "Enter your e-mail", tvEmail)
         }
 
         tvPhoneNumber.setOnClickListener {
-            setupAlertDialog("Edit Phone Number ", "Enter your phone number", tvPhoneNumber)
+            setupAlertDialog("Edit phone number ", "Enter your phone number", tvPhoneNumber)
         }
     }
 
